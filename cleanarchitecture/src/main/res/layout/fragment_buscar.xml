@@ -14,17 +14,15 @@
             android:id="@+id/eNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nombre"
-            android:maxLength="6"
-            android:inputType="textCapCharacters" />
+            android:hint="@string/nombre"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/buscar"
-        android:onClick="buscarClicked"/>
+        android:id="@+id/bBuscar"
+        android:text="@string/buscar"/>
 
     <TextView
         android:layout_width="match_parent"

@@ -11,12 +11,10 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/eLicense_Plate"
+            android:id="@+id/eNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nombre"
-            android:maxLength="6"
-            android:inputType="textCapCharacters" />
+            android:hint="@string/nombre"/>
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -27,8 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/telefono"
-            android:maxLength="6"
-            android:inputType="textCapCharacters" />
+            android:inputType="numberDecimal" />
     </android.support.design.widget.TextInputLayout>
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
@@ -39,14 +36,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/correo"
-            android:maxLength="6"
-            android:inputType="textCapCharacters" />
+            android:inputType="textEmailAddress" />
     </android.support.design.widget.TextInputLayout>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/actualizar"
-        android:onClick="actualizarClicked"/>
+        android:id="@+id/bActualizar"/>
 
 </LinearLayout>

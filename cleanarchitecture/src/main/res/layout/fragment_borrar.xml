@@ -11,12 +11,10 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/eLicense_Plate"
+            android:id="@+id/eNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/nombre"
-            android:maxLength="6"
-            android:inputType="textCapCharacters" />
+            android:hint="@string/nombre"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button
@@ -24,6 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/borrar"
-        android:onClick="borrarClicked"/>
+        android:id="@+id/bBorrar"/>
 
 </LinearLayout>
